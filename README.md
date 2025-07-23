@@ -10,7 +10,7 @@ which was derived by us from <br>
 <br>
 <br>
 <b>Acutual Image Segmentation for 512x512 Acute-Lymphoblastic-Leukemia images</b><br>
-As shown below, the inferred masks look similar to the ground truth masks. 
+As shown below, the inferred masks look very similar to the ground truth masks. 
 The green region represents a benign, the cyan a malignant-early, and the yellow a malignant-pre respectively.<br><br>
 <table>
 <tr>
@@ -234,8 +234,8 @@ Evaluation console output:<br>
 <br><br>
 
 <a href="./projects/TensorFlowFlexUNet/Acute-Lymphoblastic-Leukemia/evaluation.csv">evaluation.csv</a><br>
-The loss (categorical_crossentropy) to this Acute-Lymphoblastic-Leukemia/test was not low and dice_coef_multiclass 
-high as shown below.
+The loss (categorical_crossentropy) to this Acute-Lymphoblastic-Leukemia/test was very low and dice_coef_multiclass 
+very high as shown below.
 <br>
 <pre>
 categorical_crossentropy,0.0285
